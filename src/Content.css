@@ -1,0 +1,39 @@
+.content{
+    width: 600px;
+    margin: 0px auto;
+}
+.content-title{
+    display: flex;
+    margin: 20px 0;
+    font-size: 24px;
+    color: #000;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-count{
+    padding: 0 5px;
+    height: 20px;
+    border-radius: 20px;
+    background: #E6E6FA;
+    line-height: 22px;
+    text-align: center;
+    color: #666;
+    font-size: 14px
+}
+.content-todo-lists{
+    padding: 0;
+}
+.content-todo-lists li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.delete-todo{
+    cursor: pointer;
+}
+.content-val{
+    width: 98%;
+    cursor: pointer;
+}
